@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\mkEngine">
+      <UniqueIdentifier>{16c56554-3b24-449a-855e-d3a5e557ca6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\mkEngine">
+      <UniqueIdentifier>{cd864301-797c-46d0-9510-61cbc3cd4929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\mkEngine\Debug Tools">
+      <UniqueIdentifier>{335cc39f-c18a-4d4e-87fc-81f9644311b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\mkEngine\Colliders">
+      <UniqueIdentifier>{aaed2c92-befd-4652-a775-254755bf8002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\mkEngine\Shapes">
+      <UniqueIdentifier>{e0ff4b35-a51d-46fb-937e-394b9a886134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\mkEngine\Colliders">
+      <UniqueIdentifier>{6bcfeb01-51b6-4b29-8e44-ab970cdce62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\mkEngine\Debug Tools">
+      <UniqueIdentifier>{b4542299-8204-4eba-ad5e-9d0eb0503f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\mkEngine\Shapes">
+      <UniqueIdentifier>{eb56170a-c046-4af3-b280-03c2e1e142e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Pliki zasobów\mkEngine\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Pliki zasobów\mkEngine\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Convex.cpp">
+      <Filter>Pliki zasobów\mkEngine\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Pliki zasobów\mkEngine\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle_Collider.cpp">
+      <Filter>Pliki zasobów\mkEngine\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Convex_Collider.cpp">
+      <Filter>Pliki zasobów\mkEngine\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDot.cpp">
+      <Filter>Pliki zasobów\mkEngine\Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Close_Area.cpp">
+      <Filter>Pliki zasobów\mkEngine\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Pliki zasobów\mkEngine\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Physic.cpp">
+      <Filter>Pliki zasobów\mkEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Convex.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle_Collider.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Convex_Collider.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDot.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Close_Area.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Pliki nagłówkowe\mkEngine\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Physic.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Pliki nagłówkowe\mkEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
