@@ -19,3 +19,8 @@ Engine uses widely known formula to calculate collision impulse (that is the col
   Next the collision impulse is being applied to both objects according to the equations:
   <img  src="https://github.com/michal34512/MK_Engine/assets/136522993/6d2f2177-8c9c-4851-9e69-b0a010282141">
 </p>
+<p align="center">
+  Demo preview:
+  <img  src="https://github.com/michal34512/MK_Engine/assets/136522993/59c0e13e-7b11-4dac-b759-94868d74f969">
+</p>
+
